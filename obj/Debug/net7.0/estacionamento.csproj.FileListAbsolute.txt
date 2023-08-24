@@ -1,0 +1,14 @@
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\bin\Debug\net7.0\estacionamento.exe
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\bin\Debug\net7.0\estacionamento.deps.json
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\bin\Debug\net7.0\estacionamento.runtimeconfig.json
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\bin\Debug\net7.0\estacionamento.dll
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\bin\Debug\net7.0\estacionamento.pdb
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.AssemblyInfoInputs.cache
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.AssemblyInfo.cs
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.csproj.CoreCompileInputs.cache
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.dll
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\refint\estacionamento.dll
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.pdb
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\estacionamento.genruntimeconfig.cache
+C:\Users\ruanl\OneDrive\Desktop\git\estacionamento\obj\Debug\net7.0\ref\estacionamento.dll
