@@ -30,22 +30,34 @@ void RemoverVeiculo(List<Veiculo> p_estacionamento)
 
     int contador = 0;
     bool removido = false;
-    foreach (Veiculo carro in p_estacionamento)
+    if (placa != null)
     {
-        if (carro.Placa == placa)
+        foreach (Veiculo carro in p_estacionamento)
         {
-            p_estacionamento.RemoveAt(contador);
-            removido = true;
-            break;
+            if (carro.Placa == placa)
+            {
+                p_estacionamento.RemoveAt(contador);
+                removido = true;
+                break;
+            }
+            contador++;
         }
-        contador++;
     }
 
     if (removido)
     {
-        Console.WriteLine("quanto tempo o veiculo ficou no estacionamento?");
-        int horas = Convert.ToInt32(Console.ReadLine());
+        string input = "";
+        int horas = 0;
+        bool falha_conversao = false;
+        do
+        {
+            Console.WriteLine("quanto tempo o veiculo ficou no estacionamento?");
+            input = Console.ReadLine();
+            falha_conversao = !int.TryParse(input, out horas);
+        } while (falha_conversao);
         Console.WriteLine($" {placa} removido com sucesso , valor a pagar = {horas * valorPorHora + valorEntrada}");
+
+
     }
     else
     {
@@ -57,7 +69,6 @@ void RemoverVeiculo(List<Veiculo> p_estacionamento)
 
 
 bool rodando = true;
-int escolha = 0;
 
 while (rodando)
 {
@@ -68,7 +79,13 @@ while (rodando)
     {
         case "1":
             Console.WriteLine("digite a placa do veiculo : ");
-            estacionamento.Add(new Veiculo(Console.ReadLine()));
+            string placa = Console.ReadLine();
+            if (placa != null)
+            {
+                estacionamento.Add(new Veiculo(placa));
+            }
+            else
+                Console.WriteLine("placa invalida");
             break;
         case "2":
             RemoverVeiculo(estacionamento);
@@ -86,6 +103,7 @@ while (rodando)
 
     Console.WriteLine("aperte enter para proseguir");
     Console.ReadLine();
+    Console.Clear();
 }
 
 
